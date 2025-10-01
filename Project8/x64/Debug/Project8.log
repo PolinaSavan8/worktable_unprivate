@@ -1,0 +1,8 @@
+﻿  Source1.cpp
+  Source2.cpp
+  Создание кода...
+Source1.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl student_management_menu(struct Catalog * &)" (?student_management_menu@@YAXAEAPEAUCatalog@@@Z) в функции "void __cdecl showMenu_1(struct Catalog * &)" (?showMenu_1@@YAXAEAPEAUCatalog@@@Z).
+Source1.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl administration(struct Catalog * &)" (?administration@@YAXAEAPEAUCatalog@@@Z) в функции "void __cdecl showMenu_1(struct Catalog * &)" (?showMenu_1@@YAXAEAPEAUCatalog@@@Z).
+Source1.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl news(struct Catalog * &)" (?news@@YAXAEAPEAUCatalog@@@Z) в функции "void __cdecl showMenu_1(struct Catalog * &)" (?showMenu_1@@YAXAEAPEAUCatalog@@@Z).
+Source1.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl contacts(struct Catalog * &)" (?contacts@@YAXAEAPEAUCatalog@@@Z) в функции "void __cdecl showMenu_1(struct Catalog * &)" (?showMenu_1@@YAXAEAPEAUCatalog@@@Z).
+C:\Users\st\Desktop\Савань\Project8\x64\Debug\Project8.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
