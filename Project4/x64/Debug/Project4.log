@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\st\Desktop\Савань\Project4\Source.cpp(155,9): warning C4101: result: неиспользованная локальная переменная
+C:\Users\st\Desktop\Савань\Project4\Source.cpp(223,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\st\Desktop\Савань\Project4\Source.cpp(339): warning C4715: findMax: значение возвращается не при всех путях выполнения
+  Project4.vcxproj -> C:\Users\st\Desktop\Савань\Project4\x64\Debug\Project4.exe
