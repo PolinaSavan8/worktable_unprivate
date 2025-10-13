@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: два или более файлов с именем Source.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — ..\Project9\Source.cpp, Source.cpp.
+  Source.cpp
+  Source.cpp
+  Создание кода...
+x64\Debug\Source.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+  Project10.vcxproj -> C:\Users\st\Desktop\Савань\Project10\x64\Debug\Project10.exe
