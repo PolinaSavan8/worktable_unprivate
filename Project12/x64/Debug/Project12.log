@@ -1,0 +1,20 @@
+﻿  gift.cpp
+  present.cpp
+C:\Users\st\Desktop\Савань\happy_birthday_20th_October_17.years.old!\present.cpp(49,28): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+  Source.cpp
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(75,4): error C2660: Player::setName: функция не принимает 1 аргументов
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(47,7): message : см. объявление "Player::setName"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(75,4): message : при попытке сопоставить список аргументов "(const char [7])"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(94,22): error C2248: Player::name: невозможно обратиться к private член, объявленному в классе "Player"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(14,9): message : см. объявление "Player::name"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(11,7): message : см. объявление "Player"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(97,22): error C2248: Player::nickname: невозможно обратиться к private член, объявленному в классе "Player"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(15,9): message : см. объявление "Player::nickname"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(11,7): message : см. объявление "Player"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(100,16): error C2248: Player::age: невозможно обратиться к private член, объявленному в классе "Player"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(16,6): message : см. объявление "Player::age"
+C:\Users\st\Desktop\Савань\Project12\Source.cpp(11,7): message : см. объявление "Player"
+  Source1.cpp
+  Source2.cpp
+  Source3.cpp
+  Создание кода...
