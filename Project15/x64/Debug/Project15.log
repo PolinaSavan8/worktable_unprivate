@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\st\Desktop\Савань\Project15\Source.cpp(57,66): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+  Project15.vcxproj -> C:\Users\st\Desktop\Савань\Project15\x64\Debug\Project15.exe
