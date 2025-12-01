@@ -1,0 +1,7 @@
+﻿  Source1.cpp
+C:\Users\st\Desktop\Савань\Project16\Source1.cpp(74,60): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "max"
+C:\Users\st\Desktop\Савань\Project16\Source1.cpp(74,60): error C2589: (: недопустимая лексема справа от "::"
+C:\Users\st\Desktop\Савань\Project16\Source1.cpp(74,1): error C2144: синтаксическая ошибка: перед "unknown-type" требуется ")"
+C:\Users\st\Desktop\Савань\Project16\Source1.cpp(74,1): error C2144: синтаксическая ошибка: перед "unknown-type" требуется ";"
+C:\Users\st\Desktop\Савань\Project16\Source1.cpp(74,60): error C2059: синтаксическая ошибка: )
+C:\Users\st\Desktop\Савань\Project16\Source1.cpp(74,1): error C2059: синтаксическая ошибка: )
