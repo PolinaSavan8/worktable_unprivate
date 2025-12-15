@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  Source1.cpp
+  Создание кода...
+Source1.obj : error LNK2005: main уже определен в Source.obj
+C:\Users\st\Desktop\Савань Полина\Project19\x64\Debug\Project19.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
