@@ -1,0 +1,31 @@
+﻿  Source1.cpp
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(100,5): error C2535: Student::Student(void): функция-член уже определена или объявлена
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(25,5): message : см. объявление "Student::Student"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(107,37): error C2556: const std::string &Student::getSurname(void) const: перегруженная функция отличается от "std::string Student::getSurname(void) const" только возвращаемым типом
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(35,12): message : см. объявление "Student::getSurname"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(107,19): error C2040: Student::getSurname: "const std::string &(void) const" отличается по уровням косвенного обращения от "std::string (void) const"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(108,34): error C2556: const std::string &Student::getName(void) const: перегруженная функция отличается от "std::string Student::getName(void) const" только возвращаемым типом
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(32,12): message : см. объявление "Student::getName"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(108,19): error C2040: Student::getName: "const std::string &(void) const" отличается по уровням косвенного обращения от "std::string (void) const"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(109,41): error C2556: const std::string &Student::getGroupNumber(void) const: перегруженная функция отличается от "std::string Student::getGroupNumber(void) const" только возвращаемым типом
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(38,12): message : см. объявление "Student::getGroupNumber"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(109,19): error C2040: Student::getGroupNumber: "const std::string &(void) const" отличается по уровням косвенного обращения от "std::string (void) const"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(113,10): error C2535: void Student::setSurname(const std::string &): функция-член уже определена или объявлена
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(34,10): message : см. объявление "Student::setSurname"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(114,10): error C2535: void Student::setName(const std::string &): функция-член уже определена или объявлена
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(31,10): message : см. объявление "Student::setName"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(115,10): error C2535: void Student::setGroupNumber(const std::string &): функция-член уже определена или объявлена
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(37,10): message : см. объявление "Student::setGroupNumber"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(119,10): error C2535: void Student::addGrade(int): функция-член уже определена или объявлена
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(57,10): message : см. объявление "Student::addGrade"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(120,10): error C2535: void Student::clearGrades(void): функция-член уже определена или объявлена
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(62,10): message : см. объявление "Student::clearGrades"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(18,36): error C2065: a: необъявленный идентификатор
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(18,32): error C2614: Student: недопустимая инициализация члена: "age" не является базовым классом или членом
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(18,40): error C2614: Student: недопустимая инициализация члена: "group_number" не является базовым классом или членом
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(37,44): error C2065: group_number: необъявленный идентификатор
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(70,16): error C2065: group_number: необъявленный идентификатор
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(192,18): error C2661: Student::Student: нет перегруженной функции, принимающей 5 аргументов
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(192,18): message : при попытке сопоставить список аргументов "(const char [6], const char [8], int, const char [7], int)"
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(196,18): error C2661: Student::Student: нет перегруженной функции, принимающей 5 аргументов
+C:\Users\st\Desktop\Савань Полина\Project20\Source1.cpp(196,18): message : при попытке сопоставить список аргументов "(const char [5], const char [8], int, const char [7], int)"
