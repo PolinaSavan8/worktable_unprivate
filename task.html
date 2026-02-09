@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <title>Задание 1</title>
+    <style>
+        body {
+            width: 100%;                      
+            margin: 0;
+        }        
+        h1,h2,p {
+            margin: 0;
+            padding: 1vmin;
+            font-family: 'League Gothic', sans-serif;
+            font-size: calc(1rem + 1vmin);
+            font-weight: normal;
+            text-align: center;
+        }
+        body>div {            
+            width: 45%;                        
+            margin-left: 3%;
+            display: inline-block;
+            vertical-align: middle;
+            box-shadow: 0px 0px 15px 0px #333;            
+        }        
+        .header {
+            width: 97%;
+            display: block;
+            margin: 1vw auto;
+        }        
+        /***************************************/
+        /**** Тут пишем необходимые стили!!: ***/
+        /***************************************/ 
+        body > div.header > h1 {
+            color: red;
+        }
+        body > div.header > p {
+            color: blue;
+        }
+        body > div.header > h2 {
+            color: red;
+        }
+
+
+
+
+
+        /*div{
+           h1{
+            color:red;
+           }
+           p{
+            color:blue;
+           }
+           h2{
+            color:red;
+           }
+        }  
+           
+        div{
+            h2{
+                color: red;
+                span{
+                    color:blue;
+                }
+            }
+            div{
+                h2{
+                    color:yellow;
+                    span{
+                        color:blue;
+                    }
+                }
+                p{
+                    color: yellow;
+                }
+                p{
+                    color: yellow;
+                }
+                p{
+                    color: yellow;
+                }
+                div{
+                    h2{
+                        color:blue;
+                    }
+                    p{
+                        color:blue;
+                    }
+                }
+            }
+            h2{
+                color:red;
+                span{
+                    color:blue;
+                }
+            }
+            div{
+               h2{
+                color: yellow;
+                span{
+                    color:blue;
+                }
+               }
+               p{
+                color:yellow;
+               }
+               p{
+                color:yellow;
+               }
+               p{
+                color:yellow;
+               }
+               div{
+                h2{
+                    color:red;
+                }
+                p{
+                    color:red;
+                }
+               }
+            }
+
+        }  
+        div{
+            h2{
+                color:aqua;
+            }
+            p{
+                color:aqua;
+            }
+            p{
+                color:red;
+            }
+            p{
+                color:red;
+            }
+            div{
+                h2{
+                    color:blueviolet;
+                }
+                h2{
+                    color:blueviolet;
+                }
+                p{
+
+                }
+            }
+        }*/
+
+
+
+
+        /***************************************/
+        /***************************************/
+        /***************************************/
+    </style>
+</head>
+<body>
+    <!---------------------------------------------------------------------------------------------------->    
+    <!-- Здесь ничего не меняем! Задачу решить только с помощью написания нужных стилей в теге STYLE!!! -->    
+    <!---------------------------------------------------------------------------------------------------->  
+    <div class="header">
+        <h1>Я - заголовок красного цвета</h1>
+        <p>Я - параграф синего цвета</p>
+        <h2>Я - заголовок красного цвета</h2>    
+    </div>      
+    <div class="main-content">
+        <h2>Я - заголовок красного цвета, а я  - <span>его синяя часть</span></h2>
+        <div>
+            <h2>Я - заголовок желтого цвета, а я  - <span>его синяя часть</span></h2>
+            <p>Я - желтый параграф текста</p>
+            <p>Я - желтый параграф текста</p>
+            <p>Я - желтый параграф текста</p>
+            <div class="inner-element">
+                <h2>Я - синий заголовок</h2>
+                <p>Я - тоже синий параграф</p>
+            </div>
+        </div>
+        <h2>Я - заголовок красного цвета, а я  - <span>его синяя часть</span></h2>
+        <div class="secondary-block">
+            <h2>Я - заголовок желтого цвета, а я  - <span> его синяя часть</span></h2>
+            <p>Я - желтый параграф текста</p>
+            <p>Я - желтый параграф текста</p>
+            <p>Я - желтый параграф текста</p>
+            <div>
+                <h2>Я - заголовок красного цвета</h2>
+                <p>Я - параграф красного цвета</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">        
+        <h2>Я - заголовок особого цвета</h2>
+        <p>Я - параграф с таким же цветом</p>
+        <p>А я - красный параграф текста</p>
+        <p>И я - красный параграф текста</p>
+        <div>
+            <h2>А я - другой особый заголовок</h2>
+            <h2>Я - такой же особый параграф</h2>
+            <p>Я - просто красный параграф текста</p>
+            <p>И я - просто красный параграф текста</p>            
+        </div>
+    </div>
+    <!---------------------------------------------------------------------------------------------------->    
+    <!---------------------------------------------------------------------------------------------------->    
+    <!---------------------------------------------------------------------------------------------------->    
+</body>
+</html>
