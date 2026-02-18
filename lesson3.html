@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!---<img src="/pictures.html/kana6.jpg" alt="kana6">
+    <img src="/pictures.html/kanade_yoisaki_festival.jpg" alt="kanade_yoisaki_festival">
+    <img src="/pictures.html/kanade_yoisaki_worldlink.jpg" alt="kanade_yoisaki_worldlink">--->
+
+
+    <!---<img
+     src="/pictures.html/kana6.jpg" 
+     alt="kana6" 
+     srcset="/pictures/kana6.jpg 480w, /pictures/kana6.jpg 960w"
+    > -->
+
+    <picture>
+        <source media="(max-width: 360px)" srcset="/picture/kana6.jpg">
+        <source media="(max-width: 720px)" srcset="/picture/kanade_yoisaki_festival.jpg">
+        <source media="(max-width: 960px)" srcset="/picture/kanade_yoisaki_worldlink.jpg">
+        <img src="/pictures.html/kana6.jpg" alt="logo">
+    </picture>
+
+    <div class="img-block">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eaque impedit perspiciatis repudiandae, consectetur dolores, enim dolore ea corporis cumque soluta consequatur! Tempore, reiciendis aspernatur sint nobis hic vel animi.</p>
+    </div>
+</body>
+</html>
