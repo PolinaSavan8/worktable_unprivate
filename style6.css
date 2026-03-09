@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 100px;
+}
+
+.container{
+    width: 80vw;
+    box-shadow: 0 0 1px 3px gray;
+    margin: 0 auto;
+   /* padding: 20px;*/
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 25vw;
+    height: 25vw;
+    font-size: 1.5rem;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    background: blue;
+    border: 5px solid red;
+}
