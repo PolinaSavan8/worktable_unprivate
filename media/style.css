@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 50px 30px;
+}
+header{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+.menu > h1{
+    flex-direction:column-reverse;
+}
+@media screen and (min-width: 360px) {
+    
+}
